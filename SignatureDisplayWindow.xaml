@@ -1,0 +1,12 @@
+﻿<Window x:Class="Project.SignatureDisplayWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="SignatureDisplayWindow" Height="300" Width="300" WindowState="Maximized">
+    <Canvas x:Name="canvas">
+        <Path Canvas.Left="0" Canvas.Top="0" Stroke="Black">
+            <Path.Data>
+                <PathGeometry x:Name="path"/>
+            </Path.Data>
+        </Path>
+    </Canvas>
+</Window>
